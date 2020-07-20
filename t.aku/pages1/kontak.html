@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tentangaku.com</title>
+  </head>
+  <body>
+    <h1>tentangaku.com</h1>
+    <img
+      src="../img1/unnamed.png"
+      width="150"
+      style="border-radius: 50%;"
+      alt=""
+    />
+    <ul>
+      <li><a href="../index1.html">Home</a></li>
+      <li>
+        Kegiatanku
+        <ul>
+          <li><a href="hobi.html">Hobi</a></li>
+          <li><a href="sekolah.html">Sekolah</a></li>
+          <li><a href="cita-cita.html">Cita-Cita</a></li>
+          <li><a href="next.html">Next 10 Year</a></li>
+        </ul>
+      </li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+    <hr />
+    <h2>Komentar Dan Masukan</h2>
+    <form action="">
+      <fieldset>
+        <legend>Masukan Untuk Saya Dari:</legend>
+        <label for="username">Nama:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Masukan Username"
+          autocomplete="off"
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Masukan Email"
+          autocomplete="off"
+        />
+        <br />
+        <label for="masukan">Komentar: </label>
+        <textarea
+          name="masukan"
+          id="masukan"
+          cols="30"
+          rows="10"
+          placeholder="Saran Dan Komentar Anda"
+        ></textarea
+        ><br />
+        <label for="opsi">Pilih Setingan:</label>
+        <select id="opsi" name="opsi">
+          <option value="Public">Public</option>
+          <option value="Private">Private</option>
+        </select>
+        <br />
+        <button type="submit" name="submit">Kirim!</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
